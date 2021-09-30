@@ -7,7 +7,7 @@
 
 int	my_putstr(char *str)
 {
-    int k;
+    int k = 0;
     if (str == NULL)
         return (84);
     while(!(str[k] == '\0')) {

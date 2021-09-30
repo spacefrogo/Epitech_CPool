@@ -8,11 +8,10 @@
 
 int	my_strlen(char const *str)
 {
-    int k;
-
-    k = 0;
+    int k = 0;
+    
     if (str == NULL)
-        return 0;
+        return (84);
     while (str[k] != '\0') {
         k++;
     }
